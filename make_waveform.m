@@ -1,4 +1,4 @@
-function b = make_waveform_param(gmax, tau, zeta, out_path, out_name, theta, phi, plotting, saving)
+function b = make_waveform(gmax, tau, zeta, out_path, out_name, theta, phi, plotting, saving)
 	% Gradient waveforms for axisymmetric b-tensors.
 	%
 	% Calculated according to the recipe in fig 1 of
