@@ -96,7 +96,7 @@ def main():
     if shape == 'lin':
         zeta = 0
     elif shape == 'pro':
-        zeta = np.acos(np.sqrt(2. / 3)) # Approximately 35 deg for prolate shape
+        zeta = np.math.acos(np.sqrt(2. / 3)) # Approximately 35 deg for prolate shape
     elif shape == 'sph':
         zeta = np.math.acos(np.sqrt(1 / 3.))
     elif shape == 'obl':
